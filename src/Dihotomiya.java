@@ -75,20 +75,8 @@ public class Dihotomiya {
         return (a/Math.exp((leftBracket + rightBracket)/2)) + b * (leftBracket + rightBracket)/2;
     }
 
-    public double getEps() {
-        return eps;
-    }
-
-    public double getInitialX() {
-        return initialX;
-    }
-
     public void setInitialX(double initialX) {
         this.initialX = initialX;
-    }
-
-    public double getFinalX() {
-        return finalX;
     }
 
     public void setFinalX(double finalX) {
@@ -99,24 +87,12 @@ public class Dihotomiya {
         this.eps = eps;
     }
 
-    public double getDelta() {
-        return delta;
-    }
-
     public void setDelta(double delta) {
         this.delta = delta;
     }
 
-    public double getA() {
-        return a;
-    }
-
     public void setA(double a) {
         this.a = a;
-    }
-
-    public double getB() {
-        return b;
     }
 
     public void setB(double b) {

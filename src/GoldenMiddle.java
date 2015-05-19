@@ -41,48 +41,24 @@ public class GoldenMiddle {
         }
     }
 
-    public double getEpsilon() {
-        return epsilon;
-    }
-
     public void setEpsilon(double epsilon) {
         this.epsilon = epsilon;
-    }
-
-    public double getInitialX() {
-        return initialX;
     }
 
     public void setInitialX(double initialX) {
         this.initialX = initialX;
     }
 
-    public double getFinalX() {
-        return finalX;
-    }
-
     public void setFinalX(double finalX) {
         this.finalX = finalX;
-    }
-
-    public double getA() {
-        return a;
     }
 
     public void setA(double a) {
         this.a = a;
     }
 
-    public double getB() {
-        return b;
-    }
-
     public void setB(double b) {
         this.b = b;
-    }
-
-    public double getDelta() {
-        return delta;
     }
 
     public void setDelta(double delta) {

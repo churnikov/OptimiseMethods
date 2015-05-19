@@ -20,16 +20,8 @@ public class Polynom {
         return result;
     }
 
-    public int getDegree() {
-        return degree;
-    }
-
     public void setDegree(int degree) {
         this.degree = degree;
-    }
-
-    public List<Double> getCoefficients() {
-        return coefficients;
     }
 
     public void setCoefficients(List<Double> coefficients) {
